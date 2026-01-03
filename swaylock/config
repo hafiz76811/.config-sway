@@ -1,10 +1,12 @@
 image=~/.config/background/wallpaper10.png
+scaling=fit
+
+indicator-idle-visible
 indicator-radius=100
 indicator-thickness=15
-indicator-idle-visible
-ignore-empty-password
-scaling=fit
+
 show-failed-attempts
+ignore-empty-password
 
 key-hl-color=#4fff4f
 ring-color=#2f2fff
