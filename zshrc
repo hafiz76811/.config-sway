@@ -72,7 +72,7 @@ alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
-alias gl='git log'
+alias gl='git log -5'
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
