@@ -1,0 +1,31 @@
+# background, warna teks, dan jenis font
+background-color=#3f3f3f
+text-color=#ffffff
+font=DejaVu Sans 12
+
+# lebar dan tinggi jendela
+width=300
+height=150
+
+# margin dan padding jendela
+margin=10
+padding=10
+
+# pengaturan border jendela
+border-size=3
+border-color=#5f5fff
+border-radius=10
+
+# pengaturan icons
+icons=true
+max-icon-size=100
+icon-border-radius=10
+
+# lapisan dan history
+layer=top
+history=true
+max-history=10
+
+# timeout dari jendela mako
+ignore-timeout=true
+default-timeout=5000

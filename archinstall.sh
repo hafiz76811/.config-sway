@@ -6,8 +6,8 @@ packages=(
 	swaylock
 	swayidle
 	swaybg
-	swaync -
-	mako -
+	#swaync -
+	mako
 	networkmanager
 	brightnessctl
 	grim slurp foot -
@@ -19,16 +19,17 @@ packages=(
 	xdg-desktop-portal-wlr
 
 	# fonts
+	ttf-dejavu
 	otf-font-awesome
 	ttf-cascadia-code-nerd
 	#tambahkan font bagus lain
 
 	# support package for sway
-	mpv mpv-mpris
+	mpv mpv-mpris -
 	wofi -
 	waybar
 	blueman
-	# playerctl -
+	playerctl -
 	alacritty -
 	wf-recorder
 	power-profiles-daemon
@@ -49,7 +50,7 @@ packages=(
 	# gui tools
 	totem
 	eog
-	#rhythmbox
+	rhythmbox
 	nautilus -
 	firefox -
 	pavucontrol
