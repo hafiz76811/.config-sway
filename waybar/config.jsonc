@@ -237,7 +237,7 @@
 		"menu-actions": {
 			"shutdown": "systemctl poweroff",
 			"reboot": "systemctl reboot",
-			"suspend": "systemctl sleep"
+			"suspend": "systemctl suspend & swaylock"
 		}
     }
 }
