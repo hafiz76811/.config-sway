@@ -1,0 +1,3 @@
+timeout 290 "brightnessctl -sd 'intel_backlight' set 10% && brightnessctl -sd 'asus::kbd_backlight' set 0%" resume "brightnessctl -rd 'intel_backlight' && brightnessctl -rd 'asus::kbd_backlight'"
+timeout 300 "swaymsg 'output * power off'" resume "swaymsg 'output * power on'"
+timeout 305 "swaylock"

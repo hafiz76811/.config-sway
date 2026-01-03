@@ -1,0 +1,17 @@
+# Main
+gtk_dark=true
+hide_scroll=true
+allow_images=true
+
+# Size
+width=35%
+height=35%
+
+# Source
+stylesheet=style.css
+
+# Shortcut
+key_up=Alt-k
+key_down=Alt-j
+key_expand=Tab
+key_exit=Escape
