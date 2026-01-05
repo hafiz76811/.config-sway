@@ -95,6 +95,7 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #custom-power,
+#custom-player,
 #mpd {
     padding: 0 10px;
     color: #ffffff;
@@ -238,6 +239,11 @@ label:focus {
     background-color: #ffa000;
 }
 
+#custom-player {
+	background-color: transparent;
+	color: #ffffff;
+}
+
 #bluetooth {
 	background-color: #448aff;
 }
@@ -342,7 +348,7 @@ label:focus {
     background-color: #0069d4;
 }
 
-/* source: power_menu.xml & network_menu.xml */
+/* Source from power_menu.xml and player_menu.xml */
 menu {
 	border-radius: 5px;
 	background: #3f3f3f;

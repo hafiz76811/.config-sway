@@ -24,7 +24,7 @@ set $file nautilus
 exec mako
 exec waybar
 exec swayidle
-exec swaybg --image ~/.config/background/wallpaper --mode fit
+exec swaybg --image ~/.config/background/sebatang_pohon.jpg --mode fit
 
 # Border on windows
 default_border pixel 1
@@ -72,7 +72,7 @@ default_border pixel 1
     bindsym $mod+d exec $menu
 
     # Start a file manager
-    bindsym $mod+c exec $file
+    bindsym $mod+Shift+f exec $file
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

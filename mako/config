@@ -10,6 +10,7 @@ height=150
 # margin dan padding jendela
 margin=10
 padding=10
+anchor=top-right
 
 # pengaturan border jendela
 border-size=3
@@ -18,6 +19,8 @@ border-radius=10
 
 # pengaturan icons
 icons=true
+icon-location=left
+icon-path=/usr/share/icons/hicolor:/usr/share/icons/Adwaita
 max-icon-size=100
 icon-border-radius=10
 
@@ -25,7 +28,8 @@ icon-border-radius=10
 layer=top
 history=true
 max-history=10
+sort=+time
 
 # timeout dari jendela mako
 ignore-timeout=true
-default-timeout=5000
+default-timeout=20000

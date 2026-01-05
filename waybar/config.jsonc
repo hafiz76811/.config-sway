@@ -18,6 +18,7 @@
         // "sway/window"
 	// "mpd",
         // "idle_inhibitor",
+	"custom/player",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
@@ -128,6 +129,18 @@
         "format": "{usage}% ",
         "tooltip": false
     },
+    "custom/player": {
+	"format": "",
+	"menu": "on-click",
+	"menu-file": "~/.config/waybar/player_menu.xml",
+	"menu-actions": {
+		"play-pause": "playerctl play-pause",
+		"next": "playerctl next",
+		"previous": "playerctl previous",
+		"stop": "playerctl stop"
+	}
+
+    },
     "memory": {
         "format": "{}% "
     },
@@ -190,13 +203,12 @@
     },
     "network": {
         "interface": "wlp2s0", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ", // ({signalStrength}%) 
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format-connected": "{ifname}: {ipaddr}/{cidr}",
-        "tooltip-format": "Disable network",
+        "format-wifi": "{essid} ", // ({signalStrength}%)
+	"format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-		"on-click": "nmcli radio wifi off"
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

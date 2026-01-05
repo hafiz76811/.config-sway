@@ -1,8 +1,8 @@
 #!/bin/bash
 packages=(
 
-	# basic package for sway
-	sway -
+	## basic package for sway
+	sway
 	swaylock
 	swayidle
 	swaybg
@@ -10,7 +10,7 @@ packages=(
 	mako
 	networkmanager
 	brightnessctl
-	grim slurp foot -
+	grim slurp foot
 	pipewire
 	wireplumber
 	wayland
@@ -18,13 +18,13 @@ packages=(
 	xorg-xwayland
 	xdg-desktop-portal-wlr
 
-	# fonts
+	## fonts
 	ttf-dejavu
 	otf-font-awesome
 	ttf-cascadia-code-nerd
 	#tambahkan font bagus lain
 
-	# support package for sway
+	## support package for sway
 	mpv mpv-mpris -
 	wofi -
 	waybar
@@ -34,7 +34,7 @@ packages=(
 	wf-recorder
 	power-profiles-daemon
 
-	# terminal support tools
+	## terminal support tools
 	figlet
 	lolcat
 	axel
@@ -47,7 +47,7 @@ packages=(
 	man
 	zip unzip
 
-	# gui tools
+	## gui tools
 	totem
 	eog
 	rhythmbox
@@ -55,7 +55,7 @@ packages=(
 	firefox -
 	pavucontrol
 
-	# display manager & DE
+	## display manager & DE
 	sddm -
 	#cinnamon
 
