@@ -43,7 +43,6 @@ packages=(
 	trash-cli
 	zsh
 	neovim -
-	python-jedi
 	git
 	man
 	zip unzip
