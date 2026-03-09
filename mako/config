@@ -14,7 +14,6 @@ anchor=top-right
 
 # pengaturan border jendela
 border-size=3
-border-color=#5f5fff
 border-radius=10
 
 # pengaturan icons
@@ -33,3 +32,13 @@ sort=+time
 # timeout dari jendela mako
 ignore-timeout=true
 default-timeout=20000
+
+# urgencies mode
+[urgency=low]
+border-color=#5fdf5f
+
+[urgency=normal]
+border-color=#5f5fff
+
+[urgency=high]
+border-color=#ff5f5f

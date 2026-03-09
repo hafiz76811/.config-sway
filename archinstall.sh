@@ -25,12 +25,12 @@ packages=(
 	#tambahkan font bagus lain
 
 	## support package for sway
-	mpv mpv-mpris -
-	wofi -
+	mpv mpv-mpris
+	wofi
 	waybar
 	blueman
-	playerctl -
-	alacritty -
+	playerctl
+	alacritty
 	wf-recorder
 	power-profiles-daemon
 
@@ -38,11 +38,12 @@ packages=(
 	figlet
 	lolcat
 	axel
-	fastfetch -
-	htop -
+	fastfetch
+	htop
 	trash-cli
-	zsh -
+	zsh
 	neovim -
+	python-jedi
 	git
 	man
 	zip unzip
@@ -52,7 +53,7 @@ packages=(
 	eog
 	rhythmbox
 	nautilus -
-	firefox -
+	firefox
 	pavucontrol
 
 	## display manager & DE

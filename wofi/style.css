@@ -1,3 +1,11 @@
+#input {
+	padding: 10px;
+}
+
 #entry:selected {
 	background-color: #f77f00;
+}
+
+#entry {
+	padding: 8px;
 }
