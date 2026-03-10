@@ -28,6 +28,10 @@ call plug#end()
 set number
 set relativenumber
 set cursorline
+set nohlsearch
+set ignorecase
+set smartcase
+syntax enable
 colorscheme default
 
 " vim-airline
@@ -59,6 +63,7 @@ let g:NERDToggleCheckAllLines = 1
 " fzf.vim
 let g:fzf_command_prefix = 'Fzf'
 nnoremap <C-/> :FZF<CR>
+nnoremap <C-s> :%substitute//
 
 " auto-pairs
 let g:AutoPairsFlyMode = 0
