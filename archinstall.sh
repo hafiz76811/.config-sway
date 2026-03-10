@@ -32,6 +32,7 @@ packages=(
 	playerctl
 	alacritty
 	wf-recorder
+	wl-clipboard
 	power-profiles-daemon
 
 	## terminal support tools
