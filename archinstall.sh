@@ -42,7 +42,7 @@ packages=(
 	htop
 	trash-cli
 	zsh
-	neovim -
+	neovim
 	git
 	man
 	zip unzip
