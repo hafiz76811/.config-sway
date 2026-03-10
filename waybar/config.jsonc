@@ -161,7 +161,7 @@
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C {icon}",
+        "format-critical": "notify-send -u critical -a 'System' 'Temperature high' 'your device temperature is too high'",
         "format": "{temperatureC}°C {icon}",
         "format-icons": ["", "", ""]
     },
@@ -185,6 +185,7 @@
         // "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
+	"format-critical": "notify-send -u critical -a 'System' 'Battery low' 'low battery {capacity}% remaining, please charge your device'",
         "format-icons": ["", "", "", "", ""]
     },
     "battery#bat2": {

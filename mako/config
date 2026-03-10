@@ -3,6 +3,10 @@ background-color=#3f3f3f
 text-color=#ffffff
 font=DejaVu Sans 12
 
+# format notifikasi
+format=%a\n<b>%s</b>\n%b
+group-by=app-name
+
 # lebar dan tinggi jendela
 width=300
 height=150
@@ -31,7 +35,7 @@ sort=+time
 
 # timeout dari jendela mako
 ignore-timeout=true
-default-timeout=20000
+default-timeout=5000
 
 # urgencies mode
 [urgency=low]
