@@ -19,6 +19,8 @@ set $term foot
 set $menu wofi
 # Your preferred file manager
 set $file thunar
+# Your preferred screenshot notification
+set $screenshot notify-send -u low -a 'System' 'Screenshot' 'there was just a screenshot saved in the pictures directory'
 
 # Run the programs on startup
 exec mako
@@ -215,7 +217,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86AudioPrev exec playerctl previous
     bindsym --locked XF86AudioStop exec playerctl stop
     # Special key to take a screenshot with grim
-    bindsym Print exec grim ~/Pictures/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png
+    bindsym Print exec grim ~/Pictures/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png && $screenshot
     bindsym Shift+Print exec grim -g "$(slurp)" ~/Pictures/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png
 
 
