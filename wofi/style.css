@@ -4,6 +4,7 @@
 
 #entry:selected {
 	background-color: #f77f00;
+	border-radius: 8px;
 }
 
 #entry {

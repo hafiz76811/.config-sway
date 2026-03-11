@@ -18,7 +18,7 @@ set $term foot
 # Your preferred application launcher
 set $menu wofi
 # Your preferred file manager
-set $file nautilus
+set $file thunar
 
 # Run the programs on startup
 exec mako
