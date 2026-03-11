@@ -218,7 +218,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86AudioStop exec playerctl stop
     # Special key to take a screenshot with grim
     bindsym Print exec grim ~/Pictures/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png && $screenshot
-    bindsym Shift+Print exec grim -g "$(slurp)" ~/Pictures/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png
+    bindsym Shift+Print exec grim -g "$(slurp)" ~/Pictures/Screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png && $screenshot
 
 
 
