@@ -24,6 +24,9 @@ packages=(
 	ttf-cascadia-code-nerd
 	#tambahkan font bagus lain
 
+	## theme
+	adw-gtk-theme
+
 	## support package for sway
 	mpv mpv-mpris
 	wofi
@@ -31,6 +34,7 @@ packages=(
 	blueman
 	playerctl
 	alacritty
+	nwg-look
 	wf-recorder
 	wl-clipboard
 	power-profiles-daemon
@@ -58,7 +62,7 @@ packages=(
 
 	## display manager & DE
 	sddm -
-	#cinnamon
+	#xfce4
 
 )
 
