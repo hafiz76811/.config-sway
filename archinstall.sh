@@ -49,10 +49,10 @@ packages=(
 	zip unzip
 
 	## gui tools
-	totem
-	eog
-	rhythmbox
-	nautilus -
+	parole
+	risteretto
+	pragha
+	thunar
 	firefox
 	pavucontrol
 
